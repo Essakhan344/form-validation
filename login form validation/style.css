@@ -1,0 +1,82 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cadetblue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.header{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(179, 169, 169);
+    margin-bottom: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.form-control input{
+    height: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px 0px 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 3px solid;
+    outline: none;
+}
+
+label{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 14px;
+}
+
+small{
+    margin-left: -20px;
+    font-size: 13px;
+    color: rgb(207, 46, 46);
+    visibility: hidden;
+}
+
+button{
+    height: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 65, 139);
+    border-radius: 5px;
+    left: 10px;
+    margin: 10px 0px 20px 20px;
+    color: #fff;
+}
+
+.fa-circle-check{
+    color: lightgreen;
+    position: relative;
+    top: -23px;
+    left: 245px;
+    visibility: hidden;
+}
+
+.fa-circle-exclamation{
+    color: lightcoral;
+    position: relative;
+    top: -23px;
+    left: 224.5px;
+    visibility: hidden;
+}
